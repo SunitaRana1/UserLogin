@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         buttonRegister.setOnClickListener(this);
 
-        System.out.println("H");
     }
 
 
