@@ -45,7 +45,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         buttonRegister.setOnClickListener(this);
 
+        System.out.println("H");
     }
+
 
     private void registerUser() {
         final String username = editTextUsername.getText().toString().trim();
